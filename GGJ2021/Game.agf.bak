@@ -2290,13 +2290,13 @@
             <ThinkingView>0</ThinkingView>
             <BlinkingView>0</BlinkingView>
             <StartingRoom>1</StartingRoom>
-            <StartX>675</StartX>
-            <StartY>436</StartY>
+            <StartX>631</StartX>
+            <StartY>624</StartY>
             <UniformMovementSpeed>True</UniformMovementSpeed>
-            <MovementSpeed>4</MovementSpeed>
+            <MovementSpeed>5</MovementSpeed>
             <MovementSpeedX>3</MovementSpeedX>
             <MovementSpeedY>0</MovementSpeedY>
-            <AnimationDelay>4</AnimationDelay>
+            <AnimationDelay>1</AnimationDelay>
             <SpeechAnimationDelay>5</SpeechAnimationDelay>
             <SpeechColor>12</SpeechColor>
             <Solid>True</Solid>
@@ -2324,14 +2324,14 @@
             <ID>1</ID>
             <ScriptName>cBear</ScriptName>
             <RealName>Bearry</RealName>
-            <NormalView>1</NormalView>
+            <NormalView>2</NormalView>
             <SpeechView>0</SpeechView>
             <IdleView>0</IdleView>
             <ThinkingView>0</ThinkingView>
             <BlinkingView>0</BlinkingView>
-            <StartingRoom>-1</StartingRoom>
-            <StartX>160</StartX>
-            <StartY>120</StartY>
+            <StartingRoom>1</StartingRoom>
+            <StartX>1480</StartX>
+            <StartY>1104</StartY>
             <UniformMovementSpeed>True</UniformMovementSpeed>
             <MovementSpeed>3</MovementSpeed>
             <MovementSpeedX>0</MovementSpeedX>
@@ -2350,9 +2350,9 @@
             <MovementLinkedToAnimation>True</MovementLinkedToAnimation>
             <Properties />
             <Interactions>
-              <Event Index="0" />
+              <Event Index="0">cBear_Look</Event>
               <Event Index="1" />
-              <Event Index="2" />
+              <Event Index="2">cBear_Talk</Event>
               <Event Index="3" />
               <Event Index="4" />
               <Event Index="5" />
@@ -2364,7 +2364,7 @@
             <ID>2</ID>
             <ScriptName>cSoldier</ScriptName>
             <RealName>Sarge</RealName>
-            <NormalView>1</NormalView>
+            <NormalView>4</NormalView>
             <SpeechView>0</SpeechView>
             <IdleView>0</IdleView>
             <ThinkingView>0</ThinkingView>
@@ -2404,7 +2404,7 @@
             <ID>3</ID>
             <ScriptName>cTomagatchi</ScriptName>
             <RealName>Tomi</RealName>
-            <NormalView>1</NormalView>
+            <NormalView>3</NormalView>
             <SpeechView>0</SpeechView>
             <IdleView>0</IdleView>
             <ThinkingView>0</ThinkingView>
@@ -2580,7 +2580,7 @@
         <OutlineFont>0</OutlineFont>
         <OutlineStyle>None</OutlineStyle>
         <SourceFilename />
-        <SizeMultiplier>1</SizeMultiplier>
+        <SizeMultiplier>2</SizeMultiplier>
         <VerticalOffset>0</VerticalOffset>
         <LineSpacing>0</LineSpacing>
       </Font>
@@ -2591,7 +2591,7 @@
         <OutlineFont>2</OutlineFont>
         <OutlineStyle>UseOutlineFont</OutlineStyle>
         <SourceFilename />
-        <SizeMultiplier>1</SizeMultiplier>
+        <SizeMultiplier>3</SizeMultiplier>
         <VerticalOffset>0</VerticalOffset>
         <LineSpacing>0</LineSpacing>
       </Font>
@@ -2602,7 +2602,7 @@
         <OutlineFont>0</OutlineFont>
         <OutlineStyle>None</OutlineStyle>
         <SourceFilename />
-        <SizeMultiplier>1</SizeMultiplier>
+        <SizeMultiplier>3</SizeMultiplier>
         <VerticalOffset>0</VerticalOffset>
         <LineSpacing>0</LineSpacing>
       </Font>
@@ -2876,7 +2876,7 @@
               <SpriteFolder Name="Verbs">
                 <SubFolders />
                 <Sprites>
-                  <Sprite Slot="2100" Width="30" Height="27" ColorDepth="32" Resolution="Real" AlphaChannel="False">
+                  <Sprite Slot="2100" Width="70" Height="67" ColorDepth="32" Resolution="Real" AlphaChannel="False">
                     <Source>
                       <FileName>D:\01 - Projects\01 - Caesarcub\02 - Games\2017-AGS-Templates\sci\Resources\Verbs-Round\Walk.png</FileName>
                       <OffsetX>0</OffsetX>
@@ -2891,7 +2891,7 @@
                       <ImportAlphaChannel>False</ImportAlphaChannel>
                     </Source>
                   </Sprite>
-                  <Sprite Slot="2101" Width="30" Height="27" ColorDepth="32" Resolution="Real" AlphaChannel="False">
+                  <Sprite Slot="2101" Width="70" Height="67" ColorDepth="32" Resolution="Real" AlphaChannel="False">
                     <Source>
                       <FileName>D:\01 - Projects\01 - Caesarcub\02 - Games\2017-AGS-Templates\sci\Resources\Verbs-Round\Walk_hover.png</FileName>
                       <OffsetX>0</OffsetX>
@@ -2906,7 +2906,7 @@
                       <ImportAlphaChannel>False</ImportAlphaChannel>
                     </Source>
                   </Sprite>
-                  <Sprite Slot="2102" Width="30" Height="27" ColorDepth="32" Resolution="Real" AlphaChannel="False">
+                  <Sprite Slot="2102" Width="70" Height="67" ColorDepth="32" Resolution="Real" AlphaChannel="False">
                     <Source>
                       <FileName>D:\01 - Projects\01 - Caesarcub\02 - Games\2017-AGS-Templates\sci\Resources\Verbs-Round\Walk_pushed.png</FileName>
                       <OffsetX>0</OffsetX>
@@ -2921,7 +2921,7 @@
                       <ImportAlphaChannel>False</ImportAlphaChannel>
                     </Source>
                   </Sprite>
-                  <Sprite Slot="2103" Width="32" Height="27" ColorDepth="32" Resolution="Real" AlphaChannel="False">
+                  <Sprite Slot="2103" Width="72" Height="67" ColorDepth="32" Resolution="Real" AlphaChannel="False">
                     <Source>
                       <FileName />
                       <OffsetX>0</OffsetX>
@@ -2936,7 +2936,7 @@
                       <ImportAlphaChannel>False</ImportAlphaChannel>
                     </Source>
                   </Sprite>
-                  <Sprite Slot="2104" Width="30" Height="27" ColorDepth="32" Resolution="Real" AlphaChannel="False">
+                  <Sprite Slot="2104" Width="70" Height="67" ColorDepth="32" Resolution="Real" AlphaChannel="False">
                     <Source>
                       <FileName>D:\01 - Projects\01 - Caesarcub\02 - Games\2017-AGS-Templates\sci\Resources\Verbs-Round\Examine.png</FileName>
                       <OffsetX>0</OffsetX>
@@ -2951,7 +2951,7 @@
                       <ImportAlphaChannel>False</ImportAlphaChannel>
                     </Source>
                   </Sprite>
-                  <Sprite Slot="2105" Width="30" Height="27" ColorDepth="32" Resolution="Real" AlphaChannel="False">
+                  <Sprite Slot="2105" Width="70" Height="67" ColorDepth="32" Resolution="Real" AlphaChannel="False">
                     <Source>
                       <FileName>D:\01 - Projects\01 - Caesarcub\02 - Games\2017-AGS-Templates\sci\Resources\Verbs-Round\Examine_hover.png</FileName>
                       <OffsetX>0</OffsetX>
@@ -2966,7 +2966,7 @@
                       <ImportAlphaChannel>False</ImportAlphaChannel>
                     </Source>
                   </Sprite>
-                  <Sprite Slot="2106" Width="30" Height="27" ColorDepth="32" Resolution="Real" AlphaChannel="False">
+                  <Sprite Slot="2106" Width="70" Height="67" ColorDepth="32" Resolution="Real" AlphaChannel="False">
                     <Source>
                       <FileName>D:\01 - Projects\01 - Caesarcub\02 - Games\2017-AGS-Templates\sci\Resources\Verbs-Round\Examine_pushed.png</FileName>
                       <OffsetX>0</OffsetX>
@@ -2981,7 +2981,7 @@
                       <ImportAlphaChannel>False</ImportAlphaChannel>
                     </Source>
                   </Sprite>
-                  <Sprite Slot="2107" Width="32" Height="27" ColorDepth="32" Resolution="Real" AlphaChannel="False">
+                  <Sprite Slot="2107" Width="72" Height="67" ColorDepth="32" Resolution="Real" AlphaChannel="False">
                     <Source>
                       <FileName />
                       <OffsetX>0</OffsetX>
@@ -2996,7 +2996,7 @@
                       <ImportAlphaChannel>False</ImportAlphaChannel>
                     </Source>
                   </Sprite>
-                  <Sprite Slot="2108" Width="30" Height="27" ColorDepth="32" Resolution="Real" AlphaChannel="False">
+                  <Sprite Slot="2108" Width="70" Height="67" ColorDepth="32" Resolution="Real" AlphaChannel="False">
                     <Source>
                       <FileName>D:\01 - Projects\01 - Caesarcub\02 - Games\2017-AGS-Templates\sci\Resources\Verbs-Round\Take.png</FileName>
                       <OffsetX>0</OffsetX>
@@ -3011,7 +3011,7 @@
                       <ImportAlphaChannel>False</ImportAlphaChannel>
                     </Source>
                   </Sprite>
-                  <Sprite Slot="2109" Width="30" Height="27" ColorDepth="32" Resolution="Real" AlphaChannel="False">
+                  <Sprite Slot="2109" Width="70" Height="67" ColorDepth="32" Resolution="Real" AlphaChannel="False">
                     <Source>
                       <FileName>D:\01 - Projects\01 - Caesarcub\02 - Games\2017-AGS-Templates\sci\Resources\Verbs-Round\Take_hover.png</FileName>
                       <OffsetX>0</OffsetX>
@@ -3026,7 +3026,7 @@
                       <ImportAlphaChannel>False</ImportAlphaChannel>
                     </Source>
                   </Sprite>
-                  <Sprite Slot="2110" Width="30" Height="27" ColorDepth="32" Resolution="Real" AlphaChannel="False">
+                  <Sprite Slot="2110" Width="70" Height="67" ColorDepth="32" Resolution="Real" AlphaChannel="False">
                     <Source>
                       <FileName>D:\01 - Projects\01 - Caesarcub\02 - Games\2017-AGS-Templates\sci\Resources\Verbs-Round\Take_pushed.png</FileName>
                       <OffsetX>0</OffsetX>
@@ -3041,7 +3041,7 @@
                       <ImportAlphaChannel>False</ImportAlphaChannel>
                     </Source>
                   </Sprite>
-                  <Sprite Slot="2111" Width="32" Height="27" ColorDepth="32" Resolution="Real" AlphaChannel="False">
+                  <Sprite Slot="2111" Width="72" Height="67" ColorDepth="32" Resolution="Real" AlphaChannel="False">
                     <Source>
                       <FileName />
                       <OffsetX>0</OffsetX>
@@ -3056,7 +3056,7 @@
                       <ImportAlphaChannel>False</ImportAlphaChannel>
                     </Source>
                   </Sprite>
-                  <Sprite Slot="2112" Width="30" Height="27" ColorDepth="32" Resolution="Real" AlphaChannel="False">
+                  <Sprite Slot="2112" Width="70" Height="67" ColorDepth="32" Resolution="Real" AlphaChannel="False">
                     <Source>
                       <FileName>D:\01 - Projects\01 - Caesarcub\02 - Games\2017-AGS-Templates\sci\Resources\Verbs-Round\Talk.png</FileName>
                       <OffsetX>0</OffsetX>
@@ -3071,7 +3071,7 @@
                       <ImportAlphaChannel>False</ImportAlphaChannel>
                     </Source>
                   </Sprite>
-                  <Sprite Slot="2113" Width="30" Height="27" ColorDepth="32" Resolution="Real" AlphaChannel="False">
+                  <Sprite Slot="2113" Width="70" Height="67" ColorDepth="32" Resolution="Real" AlphaChannel="False">
                     <Source>
                       <FileName>D:\01 - Projects\01 - Caesarcub\02 - Games\2017-AGS-Templates\sci\Resources\Verbs-Round\Talk_hover.png</FileName>
                       <OffsetX>0</OffsetX>
@@ -3086,7 +3086,7 @@
                       <ImportAlphaChannel>False</ImportAlphaChannel>
                     </Source>
                   </Sprite>
-                  <Sprite Slot="2114" Width="30" Height="27" ColorDepth="32" Resolution="Real" AlphaChannel="False">
+                  <Sprite Slot="2114" Width="70" Height="67" ColorDepth="32" Resolution="Real" AlphaChannel="False">
                     <Source>
                       <FileName>D:\01 - Projects\01 - Caesarcub\02 - Games\2017-AGS-Templates\sci\Resources\Verbs-Round\Talk_pushed.png</FileName>
                       <OffsetX>0</OffsetX>
@@ -3101,7 +3101,7 @@
                       <ImportAlphaChannel>False</ImportAlphaChannel>
                     </Source>
                   </Sprite>
-                  <Sprite Slot="2115" Width="32" Height="27" ColorDepth="32" Resolution="Real" AlphaChannel="False">
+                  <Sprite Slot="2115" Width="72" Height="67" ColorDepth="32" Resolution="Real" AlphaChannel="False">
                     <Source>
                       <FileName />
                       <OffsetX>0</OffsetX>
@@ -3116,7 +3116,7 @@
                       <ImportAlphaChannel>False</ImportAlphaChannel>
                     </Source>
                   </Sprite>
-                  <Sprite Slot="2116" Width="30" Height="27" ColorDepth="32" Resolution="Real" AlphaChannel="False">
+                  <Sprite Slot="2116" Width="70" Height="67" ColorDepth="32" Resolution="Real" AlphaChannel="False">
                     <Source>
                       <FileName>D:\01 - Projects\01 - Caesarcub\02 - Games\2017-AGS-Templates\sci\Resources\Verbs-Round\Cursor.png</FileName>
                       <OffsetX>0</OffsetX>
@@ -3131,7 +3131,7 @@
                       <ImportAlphaChannel>False</ImportAlphaChannel>
                     </Source>
                   </Sprite>
-                  <Sprite Slot="2117" Width="30" Height="27" ColorDepth="32" Resolution="Real" AlphaChannel="False">
+                  <Sprite Slot="2117" Width="70" Height="67" ColorDepth="32" Resolution="Real" AlphaChannel="False">
                     <Source>
                       <FileName>D:\01 - Projects\01 - Caesarcub\02 - Games\2017-AGS-Templates\sci\Resources\Verbs-Round\Cursor_hover.png</FileName>
                       <OffsetX>0</OffsetX>
@@ -3146,7 +3146,7 @@
                       <ImportAlphaChannel>False</ImportAlphaChannel>
                     </Source>
                   </Sprite>
-                  <Sprite Slot="2118" Width="30" Height="27" ColorDepth="32" Resolution="Real" AlphaChannel="False">
+                  <Sprite Slot="2118" Width="70" Height="67" ColorDepth="32" Resolution="Real" AlphaChannel="False">
                     <Source>
                       <FileName>D:\01 - Projects\01 - Caesarcub\02 - Games\2017-AGS-Templates\sci\Resources\Verbs-Round\Cursor_pushed.png</FileName>
                       <OffsetX>0</OffsetX>
@@ -3161,7 +3161,7 @@
                       <ImportAlphaChannel>False</ImportAlphaChannel>
                     </Source>
                   </Sprite>
-                  <Sprite Slot="2119" Width="32" Height="27" ColorDepth="32" Resolution="Real" AlphaChannel="False">
+                  <Sprite Slot="2119" Width="72" Height="67" ColorDepth="32" Resolution="Real" AlphaChannel="False">
                     <Source>
                       <FileName />
                       <OffsetX>0</OffsetX>
@@ -3176,7 +3176,7 @@
                       <ImportAlphaChannel>False</ImportAlphaChannel>
                     </Source>
                   </Sprite>
-                  <Sprite Slot="2120" Width="30" Height="27" ColorDepth="32" Resolution="Real" AlphaChannel="False">
+                  <Sprite Slot="2120" Width="70" Height="67" ColorDepth="32" Resolution="Real" AlphaChannel="False">
                     <Source>
                       <FileName>D:\01 - Projects\01 - Caesarcub\02 - Games\2017-AGS-Templates\sci\Resources\Verbs-Round\Items.png</FileName>
                       <OffsetX>0</OffsetX>
@@ -3191,7 +3191,7 @@
                       <ImportAlphaChannel>False</ImportAlphaChannel>
                     </Source>
                   </Sprite>
-                  <Sprite Slot="2121" Width="30" Height="27" ColorDepth="32" Resolution="Real" AlphaChannel="False">
+                  <Sprite Slot="2121" Width="70" Height="67" ColorDepth="32" Resolution="Real" AlphaChannel="False">
                     <Source>
                       <FileName>D:\01 - Projects\01 - Caesarcub\02 - Games\2017-AGS-Templates\sci\Resources\Verbs-Round\Items_hover.png</FileName>
                       <OffsetX>0</OffsetX>
@@ -3206,7 +3206,7 @@
                       <ImportAlphaChannel>False</ImportAlphaChannel>
                     </Source>
                   </Sprite>
-                  <Sprite Slot="2122" Width="30" Height="27" ColorDepth="32" Resolution="Real" AlphaChannel="False">
+                  <Sprite Slot="2122" Width="70" Height="67" ColorDepth="32" Resolution="Real" AlphaChannel="False">
                     <Source>
                       <FileName>D:\01 - Projects\01 - Caesarcub\02 - Games\2017-AGS-Templates\sci\Resources\Verbs-Round\Items_pushed.png</FileName>
                       <OffsetX>0</OffsetX>
@@ -3221,7 +3221,7 @@
                       <ImportAlphaChannel>False</ImportAlphaChannel>
                     </Source>
                   </Sprite>
-                  <Sprite Slot="2123" Width="32" Height="27" ColorDepth="32" Resolution="Real" AlphaChannel="False">
+                  <Sprite Slot="2123" Width="72" Height="67" ColorDepth="32" Resolution="Real" AlphaChannel="False">
                     <Source>
                       <FileName />
                       <OffsetX>0</OffsetX>
@@ -3236,7 +3236,7 @@
                       <ImportAlphaChannel>False</ImportAlphaChannel>
                     </Source>
                   </Sprite>
-                  <Sprite Slot="2124" Width="30" Height="27" ColorDepth="32" Resolution="Real" AlphaChannel="False">
+                  <Sprite Slot="2124" Width="70" Height="67" ColorDepth="32" Resolution="Real" AlphaChannel="False">
                     <Source>
                       <FileName>D:\01 - Projects\01 - Caesarcub\02 - Games\2017-AGS-Templates\sci\Resources\Verbs-Round\Empty.png</FileName>
                       <OffsetX>0</OffsetX>
@@ -3251,7 +3251,7 @@
                       <ImportAlphaChannel>False</ImportAlphaChannel>
                     </Source>
                   </Sprite>
-                  <Sprite Slot="2126" Width="30" Height="27" ColorDepth="32" Resolution="Real" AlphaChannel="False">
+                  <Sprite Slot="2126" Width="70" Height="67" ColorDepth="32" Resolution="Real" AlphaChannel="False">
                     <Source>
                       <FileName>D:\01 - Projects\01 - Caesarcub\02 - Games\2017-AGS-Templates\sci\Resources\Verbs-Round\Empty_pushed.png</FileName>
                       <OffsetX>0</OffsetX>
@@ -3266,7 +3266,7 @@
                       <ImportAlphaChannel>False</ImportAlphaChannel>
                     </Source>
                   </Sprite>
-                  <Sprite Slot="2127" Width="32" Height="27" ColorDepth="32" Resolution="Real" AlphaChannel="False">
+                  <Sprite Slot="2127" Width="72" Height="67" ColorDepth="32" Resolution="Real" AlphaChannel="False">
                     <Source>
                       <FileName />
                       <OffsetX>0</OffsetX>
@@ -3281,7 +3281,7 @@
                       <ImportAlphaChannel>False</ImportAlphaChannel>
                     </Source>
                   </Sprite>
-                  <Sprite Slot="2128" Width="30" Height="27" ColorDepth="32" Resolution="Real" AlphaChannel="False">
+                  <Sprite Slot="2128" Width="70" Height="67" ColorDepth="32" Resolution="Real" AlphaChannel="False">
                     <Source>
                       <FileName>D:\01 - Projects\01 - Caesarcub\02 - Games\2017-AGS-Templates\sci\Resources\Verbs-Round\Save.png</FileName>
                       <OffsetX>0</OffsetX>
@@ -3296,7 +3296,7 @@
                       <ImportAlphaChannel>False</ImportAlphaChannel>
                     </Source>
                   </Sprite>
-                  <Sprite Slot="2129" Width="30" Height="27" ColorDepth="32" Resolution="Real" AlphaChannel="False">
+                  <Sprite Slot="2129" Width="70" Height="67" ColorDepth="32" Resolution="Real" AlphaChannel="False">
                     <Source>
                       <FileName>D:\01 - Projects\01 - Caesarcub\02 - Games\2017-AGS-Templates\sci\Resources\Verbs-Round\Save_hover.png</FileName>
                       <OffsetX>0</OffsetX>
@@ -3311,7 +3311,7 @@
                       <ImportAlphaChannel>False</ImportAlphaChannel>
                     </Source>
                   </Sprite>
-                  <Sprite Slot="2130" Width="30" Height="27" ColorDepth="32" Resolution="Real" AlphaChannel="False">
+                  <Sprite Slot="2130" Width="70" Height="67" ColorDepth="32" Resolution="Real" AlphaChannel="False">
                     <Source>
                       <FileName>D:\01 - Projects\01 - Caesarcub\02 - Games\2017-AGS-Templates\sci\Resources\Verbs-Round\Save_pushed.png</FileName>
                       <OffsetX>0</OffsetX>
@@ -3326,7 +3326,7 @@
                       <ImportAlphaChannel>False</ImportAlphaChannel>
                     </Source>
                   </Sprite>
-                  <Sprite Slot="2131" Width="32" Height="27" ColorDepth="32" Resolution="Real" AlphaChannel="False">
+                  <Sprite Slot="2131" Width="72" Height="67" ColorDepth="32" Resolution="Real" AlphaChannel="False">
                     <Source>
                       <FileName />
                       <OffsetX>0</OffsetX>
@@ -3341,7 +3341,7 @@
                       <ImportAlphaChannel>False</ImportAlphaChannel>
                     </Source>
                   </Sprite>
-                  <Sprite Slot="2132" Width="30" Height="27" ColorDepth="32" Resolution="Real" AlphaChannel="False">
+                  <Sprite Slot="2132" Width="70" Height="67" ColorDepth="32" Resolution="Real" AlphaChannel="False">
                     <Source>
                       <FileName>D:\01 - Projects\01 - Caesarcub\02 - Games\2017-AGS-Templates\sci\Resources\Verbs-Round\Load.png</FileName>
                       <OffsetX>0</OffsetX>
@@ -3356,7 +3356,7 @@
                       <ImportAlphaChannel>False</ImportAlphaChannel>
                     </Source>
                   </Sprite>
-                  <Sprite Slot="2133" Width="30" Height="27" ColorDepth="32" Resolution="Real" AlphaChannel="False">
+                  <Sprite Slot="2133" Width="70" Height="67" ColorDepth="32" Resolution="Real" AlphaChannel="False">
                     <Source>
                       <FileName>D:\01 - Projects\01 - Caesarcub\02 - Games\2017-AGS-Templates\sci\Resources\Verbs-Round\Load_hover.png</FileName>
                       <OffsetX>0</OffsetX>
@@ -3371,7 +3371,7 @@
                       <ImportAlphaChannel>False</ImportAlphaChannel>
                     </Source>
                   </Sprite>
-                  <Sprite Slot="2134" Width="30" Height="27" ColorDepth="32" Resolution="Real" AlphaChannel="False">
+                  <Sprite Slot="2134" Width="70" Height="67" ColorDepth="32" Resolution="Real" AlphaChannel="False">
                     <Source>
                       <FileName>D:\01 - Projects\01 - Caesarcub\02 - Games\2017-AGS-Templates\sci\Resources\Verbs-Round\Load_pushed.png</FileName>
                       <OffsetX>0</OffsetX>
@@ -3386,7 +3386,7 @@
                       <ImportAlphaChannel>False</ImportAlphaChannel>
                     </Source>
                   </Sprite>
-                  <Sprite Slot="2135" Width="32" Height="27" ColorDepth="32" Resolution="Real" AlphaChannel="False">
+                  <Sprite Slot="2135" Width="72" Height="67" ColorDepth="32" Resolution="Real" AlphaChannel="False">
                     <Source>
                       <FileName />
                       <OffsetX>0</OffsetX>
@@ -3401,7 +3401,7 @@
                       <ImportAlphaChannel>False</ImportAlphaChannel>
                     </Source>
                   </Sprite>
-                  <Sprite Slot="2136" Width="30" Height="27" ColorDepth="32" Resolution="Real" AlphaChannel="False">
+                  <Sprite Slot="2136" Width="70" Height="67" ColorDepth="32" Resolution="Real" AlphaChannel="False">
                     <Source>
                       <FileName>D:\01 - Projects\01 - Caesarcub\02 - Games\2017-AGS-Templates\sci\Resources\Verbs-Round\Options.png</FileName>
                       <OffsetX>0</OffsetX>
@@ -3416,7 +3416,7 @@
                       <ImportAlphaChannel>False</ImportAlphaChannel>
                     </Source>
                   </Sprite>
-                  <Sprite Slot="2137" Width="30" Height="27" ColorDepth="32" Resolution="Real" AlphaChannel="False">
+                  <Sprite Slot="2137" Width="70" Height="67" ColorDepth="32" Resolution="Real" AlphaChannel="False">
                     <Source>
                       <FileName>D:\01 - Projects\01 - Caesarcub\02 - Games\2017-AGS-Templates\sci\Resources\Verbs-Round\Options_hover.png</FileName>
                       <OffsetX>0</OffsetX>
@@ -3431,7 +3431,7 @@
                       <ImportAlphaChannel>False</ImportAlphaChannel>
                     </Source>
                   </Sprite>
-                  <Sprite Slot="2138" Width="30" Height="27" ColorDepth="32" Resolution="Real" AlphaChannel="False">
+                  <Sprite Slot="2138" Width="70" Height="67" ColorDepth="32" Resolution="Real" AlphaChannel="False">
                     <Source>
                       <FileName>D:\01 - Projects\01 - Caesarcub\02 - Games\2017-AGS-Templates\sci\Resources\Verbs-Round\Options_pushed.png</FileName>
                       <OffsetX>0</OffsetX>
@@ -3446,7 +3446,7 @@
                       <ImportAlphaChannel>False</ImportAlphaChannel>
                     </Source>
                   </Sprite>
-                  <Sprite Slot="2139" Width="32" Height="27" ColorDepth="32" Resolution="Real" AlphaChannel="False">
+                  <Sprite Slot="2139" Width="72" Height="67" ColorDepth="32" Resolution="Real" AlphaChannel="False">
                     <Source>
                       <FileName />
                       <OffsetX>0</OffsetX>
@@ -3461,7 +3461,7 @@
                       <ImportAlphaChannel>False</ImportAlphaChannel>
                     </Source>
                   </Sprite>
-                  <Sprite Slot="2140" Width="30" Height="27" ColorDepth="32" Resolution="Real" AlphaChannel="False">
+                  <Sprite Slot="2140" Width="70" Height="67" ColorDepth="32" Resolution="Real" AlphaChannel="False">
                     <Source>
                       <FileName>D:\01 - Projects\01 - Caesarcub\02 - Games\2017-AGS-Templates\sci\Resources\Verbs-Round\Power.png</FileName>
                       <OffsetX>0</OffsetX>
@@ -3476,7 +3476,7 @@
                       <ImportAlphaChannel>False</ImportAlphaChannel>
                     </Source>
                   </Sprite>
-                  <Sprite Slot="2141" Width="30" Height="27" ColorDepth="32" Resolution="Real" AlphaChannel="False">
+                  <Sprite Slot="2141" Width="70" Height="67" ColorDepth="32" Resolution="Real" AlphaChannel="False">
                     <Source>
                       <FileName>D:\01 - Projects\01 - Caesarcub\02 - Games\2017-AGS-Templates\sci\Resources\Verbs-Round\Power_hover.png</FileName>
                       <OffsetX>0</OffsetX>
@@ -3491,7 +3491,7 @@
                       <ImportAlphaChannel>False</ImportAlphaChannel>
                     </Source>
                   </Sprite>
-                  <Sprite Slot="2142" Width="30" Height="27" ColorDepth="32" Resolution="Real" AlphaChannel="False">
+                  <Sprite Slot="2142" Width="70" Height="67" ColorDepth="32" Resolution="Real" AlphaChannel="False">
                     <Source>
                       <FileName>D:\01 - Projects\01 - Caesarcub\02 - Games\2017-AGS-Templates\sci\Resources\Verbs-Round\Power_pushed.png</FileName>
                       <OffsetX>0</OffsetX>
@@ -3506,7 +3506,7 @@
                       <ImportAlphaChannel>False</ImportAlphaChannel>
                     </Source>
                   </Sprite>
-                  <Sprite Slot="2143" Width="32" Height="27" ColorDepth="32" Resolution="Real" AlphaChannel="False">
+                  <Sprite Slot="2143" Width="72" Height="67" ColorDepth="32" Resolution="Real" AlphaChannel="False">
                     <Source>
                       <FileName />
                       <OffsetX>0</OffsetX>
@@ -3521,7 +3521,7 @@
                       <ImportAlphaChannel>False</ImportAlphaChannel>
                     </Source>
                   </Sprite>
-                  <Sprite Slot="2144" Width="30" Height="27" ColorDepth="32" Resolution="Real" AlphaChannel="False">
+                  <Sprite Slot="2144" Width="70" Height="67" ColorDepth="32" Resolution="Real" AlphaChannel="False">
                     <Source>
                       <FileName>D:\01 - Projects\01 - Caesarcub\02 - Games\2017-AGS-Templates\sci\Resources\Verbs-Round\InvDn.png</FileName>
                       <OffsetX>0</OffsetX>
@@ -3536,7 +3536,7 @@
                       <ImportAlphaChannel>False</ImportAlphaChannel>
                     </Source>
                   </Sprite>
-                  <Sprite Slot="2145" Width="30" Height="27" ColorDepth="32" Resolution="Real" AlphaChannel="False">
+                  <Sprite Slot="2145" Width="70" Height="67" ColorDepth="32" Resolution="Real" AlphaChannel="False">
                     <Source>
                       <FileName>D:\01 - Projects\01 - Caesarcub\02 - Games\2017-AGS-Templates\sci\Resources\Verbs-Round\InvDn_hover.png</FileName>
                       <OffsetX>0</OffsetX>
@@ -3551,7 +3551,7 @@
                       <ImportAlphaChannel>False</ImportAlphaChannel>
                     </Source>
                   </Sprite>
-                  <Sprite Slot="2146" Width="30" Height="27" ColorDepth="32" Resolution="Real" AlphaChannel="False">
+                  <Sprite Slot="2146" Width="70" Height="67" ColorDepth="32" Resolution="Real" AlphaChannel="False">
                     <Source>
                       <FileName>D:\01 - Projects\01 - Caesarcub\02 - Games\2017-AGS-Templates\sci\Resources\Verbs-Round\InvDn_pushed.png</FileName>
                       <OffsetX>0</OffsetX>
@@ -3566,7 +3566,7 @@
                       <ImportAlphaChannel>False</ImportAlphaChannel>
                     </Source>
                   </Sprite>
-                  <Sprite Slot="2147" Width="30" Height="27" ColorDepth="32" Resolution="Real" AlphaChannel="False">
+                  <Sprite Slot="2147" Width="70" Height="67" ColorDepth="32" Resolution="Real" AlphaChannel="False">
                     <Source>
                       <FileName>D:\01 - Projects\01 - Caesarcub\02 - Games\2017-AGS-Templates\sci\Resources\Verbs-Round\InvUp.png</FileName>
                       <OffsetX>0</OffsetX>
@@ -3581,7 +3581,7 @@
                       <ImportAlphaChannel>False</ImportAlphaChannel>
                     </Source>
                   </Sprite>
-                  <Sprite Slot="2148" Width="30" Height="27" ColorDepth="32" Resolution="Real" AlphaChannel="False">
+                  <Sprite Slot="2148" Width="70" Height="67" ColorDepth="32" Resolution="Real" AlphaChannel="False">
                     <Source>
                       <FileName>D:\01 - Projects\01 - Caesarcub\02 - Games\2017-AGS-Templates\sci\Resources\Verbs-Round\InvUp_hover.png</FileName>
                       <OffsetX>0</OffsetX>
@@ -3596,7 +3596,7 @@
                       <ImportAlphaChannel>False</ImportAlphaChannel>
                     </Source>
                   </Sprite>
-                  <Sprite Slot="2149" Width="30" Height="27" ColorDepth="32" Resolution="Real" AlphaChannel="False">
+                  <Sprite Slot="2149" Width="70" Height="67" ColorDepth="32" Resolution="Real" AlphaChannel="False">
                     <Source>
                       <FileName>D:\01 - Projects\01 - Caesarcub\02 - Games\2017-AGS-Templates\sci\Resources\Verbs-Round\InvUp_pushed.png</FileName>
                       <OffsetX>0</OffsetX>
@@ -3616,7 +3616,7 @@
               <SpriteFolder Name="TextWindow">
                 <SubFolders />
                 <Sprites>
-                  <Sprite Slot="2150" Width="4" Height="4" ColorDepth="32" Resolution="Real" AlphaChannel="False">
+                  <Sprite Slot="2150" Width="44" Height="44" ColorDepth="32" Resolution="Real" AlphaChannel="False">
                     <Source>
                       <FileName />
                       <OffsetX>0</OffsetX>
@@ -3646,7 +3646,7 @@
                       <ImportAlphaChannel>False</ImportAlphaChannel>
                     </Source>
                   </Sprite>
-                  <Sprite Slot="2152" Width="4" Height="4" ColorDepth="32" Resolution="Real" AlphaChannel="False">
+                  <Sprite Slot="2152" Width="44" Height="44" ColorDepth="32" Resolution="Real" AlphaChannel="False">
                     <Source>
                       <FileName />
                       <OffsetX>0</OffsetX>
@@ -3661,7 +3661,7 @@
                       <ImportAlphaChannel>False</ImportAlphaChannel>
                     </Source>
                   </Sprite>
-                  <Sprite Slot="2153" Width="4" Height="1" ColorDepth="32" Resolution="Real" AlphaChannel="False">
+                  <Sprite Slot="2153" Width="44" Height="41" ColorDepth="32" Resolution="Real" AlphaChannel="False">
                     <Source>
                       <FileName />
                       <OffsetX>0</OffsetX>
@@ -3676,7 +3676,7 @@
                       <ImportAlphaChannel>False</ImportAlphaChannel>
                     </Source>
                   </Sprite>
-                  <Sprite Slot="2154" Width="4" Height="1" ColorDepth="32" Resolution="Real" AlphaChannel="False">
+                  <Sprite Slot="2154" Width="44" Height="41" ColorDepth="32" Resolution="Real" AlphaChannel="False">
                     <Source>
                       <FileName />
                       <OffsetX>0</OffsetX>
@@ -3691,7 +3691,7 @@
                       <ImportAlphaChannel>False</ImportAlphaChannel>
                     </Source>
                   </Sprite>
-                  <Sprite Slot="2155" Width="4" Height="4" ColorDepth="32" Resolution="Real" AlphaChannel="False">
+                  <Sprite Slot="2155" Width="44" Height="44" ColorDepth="32" Resolution="Real" AlphaChannel="False">
                     <Source>
                       <FileName />
                       <OffsetX>0</OffsetX>
@@ -3721,7 +3721,7 @@
                       <ImportAlphaChannel>False</ImportAlphaChannel>
                     </Source>
                   </Sprite>
-                  <Sprite Slot="2157" Width="4" Height="4" ColorDepth="32" Resolution="Real" AlphaChannel="False">
+                  <Sprite Slot="2157" Width="44" Height="44" ColorDepth="32" Resolution="Real" AlphaChannel="False">
                     <Source>
                       <FileName />
                       <OffsetX>0</OffsetX>
@@ -3741,7 +3741,7 @@
               <SpriteFolder Name="UI">
                 <SubFolders />
                 <Sprites>
-                  <Sprite Slot="2160" Width="71" Height="19" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                  <Sprite Slot="2160" Width="111" Height="59" ColorDepth="32" Resolution="Real" AlphaChannel="True">
                     <Source>
                       <FileName>D:\01 - Projects\01 - Caesarcub\02 - Games\2017-AGS-Templates\sci\Resources\buttons\button.png</FileName>
                       <OffsetX>0</OffsetX>
@@ -3756,7 +3756,7 @@
                       <ImportAlphaChannel>True</ImportAlphaChannel>
                     </Source>
                   </Sprite>
-                  <Sprite Slot="2161" Width="71" Height="19" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                  <Sprite Slot="2161" Width="111" Height="59" ColorDepth="32" Resolution="Real" AlphaChannel="True">
                     <Source>
                       <FileName>D:\01 - Projects\01 - Caesarcub\02 - Games\2017-AGS-Templates\sci\Resources\buttons\button_down.png</FileName>
                       <OffsetX>0</OffsetX>
@@ -3771,7 +3771,7 @@
                       <ImportAlphaChannel>True</ImportAlphaChannel>
                     </Source>
                   </Sprite>
-                  <Sprite Slot="2162" Width="105" Height="19" ColorDepth="32" Resolution="Real" AlphaChannel="False">
+                  <Sprite Slot="2162" Width="145" Height="59" ColorDepth="32" Resolution="Real" AlphaChannel="False">
                     <Source>
                       <FileName />
                       <OffsetX>0</OffsetX>
@@ -3786,7 +3786,7 @@
                       <ImportAlphaChannel>False</ImportAlphaChannel>
                     </Source>
                   </Sprite>
-                  <Sprite Slot="2163" Width="105" Height="19" ColorDepth="32" Resolution="Real" AlphaChannel="False">
+                  <Sprite Slot="2163" Width="145" Height="59" ColorDepth="32" Resolution="Real" AlphaChannel="False">
                     <Source>
                       <FileName />
                       <OffsetX>0</OffsetX>
@@ -3801,7 +3801,7 @@
                       <ImportAlphaChannel>False</ImportAlphaChannel>
                     </Source>
                   </Sprite>
-                  <Sprite Slot="2165" Width="99" Height="4" ColorDepth="32" Resolution="Real" AlphaChannel="False">
+                  <Sprite Slot="2165" Width="139" Height="44" ColorDepth="32" Resolution="Real" AlphaChannel="False">
                     <Source>
                       <FileName>D:\01 - Projects\01 - Caesarcub\02 - Games\2017-AGS-Templates\sci\Resources\buttons\slider-bar.png</FileName>
                       <OffsetX>0</OffsetX>
@@ -3816,7 +3816,7 @@
                       <ImportAlphaChannel>False</ImportAlphaChannel>
                     </Source>
                   </Sprite>
-                  <Sprite Slot="2166" Width="9" Height="11" ColorDepth="32" Resolution="Real" AlphaChannel="False">
+                  <Sprite Slot="2166" Width="49" Height="51" ColorDepth="32" Resolution="Real" AlphaChannel="False">
                     <Source>
                       <FileName />
                       <OffsetX>0</OffsetX>
@@ -3881,7 +3881,7 @@
               <SpriteFolder Name="Cursors">
                 <SubFolders />
                 <Sprites>
-                  <Sprite Slot="2054" Width="27" Height="24" ColorDepth="32" Resolution="Real" AlphaChannel="False">
+                  <Sprite Slot="2054" Width="67" Height="64" ColorDepth="32" Resolution="Real" AlphaChannel="False">
                     <Source>
                       <FileName>D:\01 - Projects\01 - Caesarcub\02 - Games\2017-AGS-Templates\sci\AGS-SCI-Template\resources\cursors\walk.png</FileName>
                       <OffsetX>0</OffsetX>
@@ -3896,7 +3896,7 @@
                       <ImportAlphaChannel>False</ImportAlphaChannel>
                     </Source>
                   </Sprite>
-                  <Sprite Slot="2055" Width="14" Height="22" ColorDepth="32" Resolution="Real" AlphaChannel="False">
+                  <Sprite Slot="2055" Width="54" Height="62" ColorDepth="32" Resolution="Real" AlphaChannel="False">
                     <Source>
                       <FileName>D:\01 - Projects\01 - Caesarcub\02 - Games\2017-AGS-Templates\sci\AGS-SCI-Template\resources\cursors\wait.png</FileName>
                       <OffsetX>0</OffsetX>
@@ -3911,7 +3911,7 @@
                       <ImportAlphaChannel>False</ImportAlphaChannel>
                     </Source>
                   </Sprite>
-                  <Sprite Slot="2056" Width="26" Height="27" ColorDepth="32" Resolution="Real" AlphaChannel="False">
+                  <Sprite Slot="2056" Width="66" Height="67" ColorDepth="32" Resolution="Real" AlphaChannel="False">
                     <Source>
                       <FileName>D:\01 - Projects\01 - Caesarcub\02 - Games\2017-AGS-Templates\sci\AGS-SCI-Template\resources\cursors\examine.png</FileName>
                       <OffsetX>0</OffsetX>
@@ -3926,7 +3926,7 @@
                       <ImportAlphaChannel>False</ImportAlphaChannel>
                     </Source>
                   </Sprite>
-                  <Sprite Slot="2057" Width="19" Height="28" ColorDepth="32" Resolution="Real" AlphaChannel="False">
+                  <Sprite Slot="2057" Width="59" Height="68" ColorDepth="32" Resolution="Real" AlphaChannel="False">
                     <Source>
                       <FileName>D:\01 - Projects\01 - Caesarcub\02 - Games\2017-AGS-Templates\sci\AGS-SCI-Template\resources\cursors\interact.png</FileName>
                       <OffsetX>0</OffsetX>
@@ -3941,7 +3941,7 @@
                       <ImportAlphaChannel>False</ImportAlphaChannel>
                     </Source>
                   </Sprite>
-                  <Sprite Slot="2058" Width="28" Height="27" ColorDepth="32" Resolution="Real" AlphaChannel="False">
+                  <Sprite Slot="2058" Width="68" Height="67" ColorDepth="32" Resolution="Real" AlphaChannel="False">
                     <Source>
                       <FileName>D:\01 - Projects\01 - Caesarcub\02 - Games\2017-AGS-Templates\sci\AGS-SCI-Template\resources\cursors\talk.png</FileName>
                       <OffsetX>0</OffsetX>
@@ -3956,7 +3956,7 @@
                       <ImportAlphaChannel>False</ImportAlphaChannel>
                     </Source>
                   </Sprite>
-                  <Sprite Slot="2059" Width="9" Height="13" ColorDepth="32" Resolution="Real" AlphaChannel="False">
+                  <Sprite Slot="2059" Width="49" Height="53" ColorDepth="32" Resolution="Real" AlphaChannel="False">
                     <Source>
                       <FileName />
                       <OffsetX>0</OffsetX>
@@ -3971,7 +3971,7 @@
                       <ImportAlphaChannel>False</ImportAlphaChannel>
                     </Source>
                   </Sprite>
-                  <Sprite Slot="2060" Width="16" Height="16" ColorDepth="32" Resolution="Real" AlphaChannel="False">
+                  <Sprite Slot="2060" Width="56" Height="56" ColorDepth="32" Resolution="Real" AlphaChannel="False">
                     <Source>
                       <FileName />
                       <OffsetX>0</OffsetX>
@@ -3986,7 +3986,7 @@
                       <ImportAlphaChannel>False</ImportAlphaChannel>
                     </Source>
                   </Sprite>
-                  <Sprite Slot="2061" Width="12" Height="16" ColorDepth="32" Resolution="Real" AlphaChannel="False">
+                  <Sprite Slot="2061" Width="52" Height="56" ColorDepth="32" Resolution="Real" AlphaChannel="False">
                     <Source>
                       <FileName>D:\01 - Projects\01 - Caesarcub\02 - Games\2017-AGS-Templates\sci\AGS-SCI-Template\resources\cursors\arrow.png</FileName>
                       <OffsetX>0</OffsetX>
@@ -4543,7 +4543,7 @@
         <Views>
           <View>
             <ID>1</ID>
-            <Name>VIEW1</Name>
+            <Name>PLAYERVIEW</Name>
             <Loops>
               <Loop>
                 <ID>0</ID>
@@ -4625,8 +4625,14 @@
                   </ViewFrame>
                 </Frames>
               </Loop>
+            </Loops>
+          </View>
+          <View>
+            <ID>2</ID>
+            <Name>BEARVIEW</Name>
+            <Loops>
               <Loop>
-                <ID>4</ID>
+                <ID>0</ID>
                 <RunNextLoop>False</RunNextLoop>
                 <Frames>
                   <ViewFrame>
@@ -4637,6 +4643,137 @@
                     <Sound>0</Sound>
                   </ViewFrame>
                 </Frames>
+              </Loop>
+              <Loop>
+                <ID>1</ID>
+                <RunNextLoop>False</RunNextLoop>
+                <Frames>
+                  <ViewFrame>
+                    <ID>0</ID>
+                    <Image>0</Image>
+                    <Flipped>False</Flipped>
+                    <Delay>0</Delay>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                </Frames>
+              </Loop>
+              <Loop>
+                <ID>2</ID>
+                <RunNextLoop>False</RunNextLoop>
+                <Frames>
+                  <ViewFrame>
+                    <ID>0</ID>
+                    <Image>0</Image>
+                    <Flipped>False</Flipped>
+                    <Delay>0</Delay>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                </Frames>
+              </Loop>
+              <Loop>
+                <ID>3</ID>
+                <RunNextLoop>False</RunNextLoop>
+                <Frames />
+              </Loop>
+            </Loops>
+          </View>
+          <View>
+            <ID>3</ID>
+            <Name>SOLDIERVIEW</Name>
+            <Loops>
+              <Loop>
+                <ID>0</ID>
+                <RunNextLoop>False</RunNextLoop>
+                <Frames>
+                  <ViewFrame>
+                    <ID>0</ID>
+                    <Image>3</Image>
+                    <Flipped>False</Flipped>
+                    <Delay>0</Delay>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                </Frames>
+              </Loop>
+              <Loop>
+                <ID>1</ID>
+                <RunNextLoop>False</RunNextLoop>
+                <Frames>
+                  <ViewFrame>
+                    <ID>0</ID>
+                    <Image>0</Image>
+                    <Flipped>False</Flipped>
+                    <Delay>0</Delay>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                </Frames>
+              </Loop>
+              <Loop>
+                <ID>2</ID>
+                <RunNextLoop>False</RunNextLoop>
+                <Frames>
+                  <ViewFrame>
+                    <ID>0</ID>
+                    <Image>0</Image>
+                    <Flipped>False</Flipped>
+                    <Delay>0</Delay>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                </Frames>
+              </Loop>
+              <Loop>
+                <ID>3</ID>
+                <RunNextLoop>False</RunNextLoop>
+                <Frames />
+              </Loop>
+            </Loops>
+          </View>
+          <View>
+            <ID>4</ID>
+            <Name>TOMIVIEW</Name>
+            <Loops>
+              <Loop>
+                <ID>0</ID>
+                <RunNextLoop>False</RunNextLoop>
+                <Frames>
+                  <ViewFrame>
+                    <ID>0</ID>
+                    <Image>3</Image>
+                    <Flipped>False</Flipped>
+                    <Delay>0</Delay>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                </Frames>
+              </Loop>
+              <Loop>
+                <ID>1</ID>
+                <RunNextLoop>False</RunNextLoop>
+                <Frames>
+                  <ViewFrame>
+                    <ID>0</ID>
+                    <Image>0</Image>
+                    <Flipped>False</Flipped>
+                    <Delay>0</Delay>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                </Frames>
+              </Loop>
+              <Loop>
+                <ID>2</ID>
+                <RunNextLoop>False</RunNextLoop>
+                <Frames>
+                  <ViewFrame>
+                    <ID>0</ID>
+                    <Image>0</Image>
+                    <Flipped>False</Flipped>
+                    <Delay>0</Delay>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                </Frames>
+              </Loop>
+              <Loop>
+                <ID>3</ID>
+                <RunNextLoop>False</RunNextLoop>
+                <Frames />
               </Loop>
             </Loops>
           </View>
