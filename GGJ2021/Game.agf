@@ -78,7 +78,7 @@
       <SaveGameFileExtension />
       <SaveGameFolderName>GGJ2021Game</SaveGameFolderName>
       <BinaryFilesInSourceControl>False</BinaryFilesInSourceControl>
-      <AudioIndexer>0</AudioIndexer>
+      <AudioIndexer>12</AudioIndexer>
       <BuildTargets>Windows</BuildTargets>
       <RenderAtScreenResolution>UserDefined</RenderAtScreenResolution>
     </Settings>
@@ -2325,7 +2325,7 @@
             <StartX>631</StartX>
             <StartY>624</StartY>
             <UniformMovementSpeed>True</UniformMovementSpeed>
-            <MovementSpeed>5</MovementSpeed>
+            <MovementSpeed>24</MovementSpeed>
             <MovementSpeedX>3</MovementSpeedX>
             <MovementSpeedY>0</MovementSpeedY>
             <AnimationDelay>1</AnimationDelay>
@@ -5339,25 +5339,28 @@
                     <Delay>0</Delay>
                     <Sound>0</Sound>
                   </ViewFrame>
-                </Frames>
-              </Loop>
-              <Loop>
-                <ID>2</ID>
-                <RunNextLoop>False</RunNextLoop>
-                <Frames>
                   <ViewFrame>
-                    <ID>0</ID>
-                    <Image>0</Image>
+                    <ID>4</ID>
+                    <Image>19</Image>
+                    <Flipped>False</Flipped>
+                    <Delay>0</Delay>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                  <ViewFrame>
+                    <ID>5</ID>
+                    <Image>20</Image>
+                    <Flipped>False</Flipped>
+                    <Delay>0</Delay>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                  <ViewFrame>
+                    <ID>6</ID>
+                    <Image>21</Image>
                     <Flipped>False</Flipped>
                     <Delay>0</Delay>
                     <Sound>0</Sound>
                   </ViewFrame>
                 </Frames>
-              </Loop>
-              <Loop>
-                <ID>3</ID>
-                <RunNextLoop>False</RunNextLoop>
-                <Frames />
               </Loop>
             </Loops>
           </View>
@@ -5545,7 +5548,47 @@ See KeyboardMovement.txt for details.
         <SubFolders>
           <AudioClipFolder Name="Music">
             <SubFolders />
-            <AudioClips />
+            <AudioClips>
+              <AudioClip>
+                <ScriptName>aHankHillMegalovania</ScriptName>
+                <ID>0</ID>
+                <SourceFileName>C:\Users\brand\Downloads\HankHillMegalovania.mp3</SourceFileName>
+                <Index>10</Index>
+                <Type>2</Type>
+                <BundlingType>InSeparateVOX</BundlingType>
+                <FileType>MP3</FileType>
+                <DefaultVolume>-1</DefaultVolume>
+                <DefaultPriority>Inherit</DefaultPriority>
+                <DefaultRepeat>Inherit</DefaultRepeat>
+                <FileLastModifiedDate>2021-01-31 23:13:58Z</FileLastModifiedDate>
+              </AudioClip>
+              <AudioClip>
+                <ScriptName>aAGSHellscape</ScriptName>
+                <ID>1</ID>
+                <SourceFileName>C:\Users\brand\Downloads\AGSHellscape.mp3</SourceFileName>
+                <Index>11</Index>
+                <Type>2</Type>
+                <BundlingType>InSeparateVOX</BundlingType>
+                <FileType>MP3</FileType>
+                <DefaultVolume>-1</DefaultVolume>
+                <DefaultPriority>Inherit</DefaultPriority>
+                <DefaultRepeat>Inherit</DefaultRepeat>
+                <FileLastModifiedDate>2021-01-31 23:20:48Z</FileLastModifiedDate>
+              </AudioClip>
+              <AudioClip>
+                <ScriptName>aCreepyPoostaRoom</ScriptName>
+                <ID>2</ID>
+                <SourceFileName>C:\Users\brand\Downloads\CreepyPoostaRoom.mp3</SourceFileName>
+                <Index>12</Index>
+                <Type>2</Type>
+                <BundlingType>InSeparateVOX</BundlingType>
+                <FileType>MP3</FileType>
+                <DefaultVolume>-1</DefaultVolume>
+                <DefaultPriority>Inherit</DefaultPriority>
+                <DefaultRepeat>Inherit</DefaultRepeat>
+                <FileLastModifiedDate>2021-01-31 23:20:39Z</FileLastModifiedDate>
+              </AudioClip>
+            </AudioClips>
             <AudioClipFolder>
               <DefaultVolume>100</DefaultVolume>
               <DefaultPriority>Inherit</DefaultPriority>
