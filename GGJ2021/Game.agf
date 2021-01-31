@@ -2321,11 +2321,11 @@
             <IdleView>0</IdleView>
             <ThinkingView>0</ThinkingView>
             <BlinkingView>0</BlinkingView>
-            <StartingRoom>1</StartingRoom>
+            <StartingRoom>7</StartingRoom>
             <StartX>631</StartX>
             <StartY>624</StartY>
             <UniformMovementSpeed>True</UniformMovementSpeed>
-            <MovementSpeed>5</MovementSpeed>
+            <MovementSpeed>24</MovementSpeed>
             <MovementSpeedX>3</MovementSpeedX>
             <MovementSpeedY>0</MovementSpeedY>
             <AnimationDelay>1</AnimationDelay>
@@ -2441,9 +2441,9 @@
             <IdleView>0</IdleView>
             <ThinkingView>0</ThinkingView>
             <BlinkingView>0</BlinkingView>
-            <StartingRoom>-1</StartingRoom>
-            <StartX>160</StartX>
-            <StartY>120</StartY>
+            <StartingRoom>7</StartingRoom>
+            <StartX>324</StartX>
+            <StartY>680</StartY>
             <UniformMovementSpeed>True</UniformMovementSpeed>
             <MovementSpeed>3</MovementSpeed>
             <MovementSpeedX>0</MovementSpeedX>
@@ -2561,9 +2561,9 @@
             <IdleView>0</IdleView>
             <ThinkingView>0</ThinkingView>
             <BlinkingView>0</BlinkingView>
-            <StartingRoom>-1</StartingRoom>
-            <StartX>160</StartX>
-            <StartY>120</StartY>
+            <StartingRoom>8</StartingRoom>
+            <StartX>268</StartX>
+            <StartY>594</StartY>
             <UniformMovementSpeed>True</UniformMovementSpeed>
             <MovementSpeed>3</MovementSpeed>
             <MovementSpeedX>0</MovementSpeedX>
