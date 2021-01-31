@@ -2334,8 +2334,8 @@
             <ThinkingView>0</ThinkingView>
             <BlinkingView>0</BlinkingView>
             <StartingRoom>1</StartingRoom>
-            <StartX>1480</StartX>
-            <StartY>1104</StartY>
+            <StartX>1156</StartX>
+            <StartY>872</StartY>
             <UniformMovementSpeed>True</UniformMovementSpeed>
             <MovementSpeed>3</MovementSpeed>
             <MovementSpeedX>0</MovementSpeedX>
@@ -4519,7 +4519,7 @@
                   <ImportAlphaChannel>True</ImportAlphaChannel>
                 </Source>
               </Sprite>
-              <Sprite Slot="4" Width="1300" Height="1168" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+              <Sprite Slot="4" Width="200" Height="200" ColorDepth="32" Resolution="Real" AlphaChannel="True">
                 <Source>
                   <FileName>C:\Users\brand\Downloads\Bear_Frame1.png</FileName>
                   <OffsetX>0</OffsetX>
@@ -4534,7 +4534,7 @@
                   <ImportAlphaChannel>True</ImportAlphaChannel>
                 </Source>
               </Sprite>
-              <Sprite Slot="5" Width="1300" Height="1168" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+              <Sprite Slot="5" Width="200" Height="200" ColorDepth="32" Resolution="Real" AlphaChannel="True">
                 <Source>
                   <FileName>C:\Users\brand\Downloads\Bear_Frame0.png</FileName>
                   <OffsetX>0</OffsetX>
@@ -4549,7 +4549,7 @@
                   <ImportAlphaChannel>True</ImportAlphaChannel>
                 </Source>
               </Sprite>
-              <Sprite Slot="6" Width="2048" Height="2048" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+              <Sprite Slot="6" Width="200" Height="200" ColorDepth="32" Resolution="Real" AlphaChannel="True">
                 <Source>
                   <FileName>C:\Users\brand\Downloads\TamagotchiFrame1.png</FileName>
                   <OffsetX>0</OffsetX>
@@ -4564,7 +4564,7 @@
                   <ImportAlphaChannel>True</ImportAlphaChannel>
                 </Source>
               </Sprite>
-              <Sprite Slot="7" Width="2048" Height="2048" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+              <Sprite Slot="7" Width="200" Height="200" ColorDepth="32" Resolution="Real" AlphaChannel="True">
                 <Source>
                   <FileName>C:\Users\brand\Downloads\TamagotchiFrame0.png</FileName>
                   <OffsetX>0</OffsetX>
@@ -4579,7 +4579,7 @@
                   <ImportAlphaChannel>True</ImportAlphaChannel>
                 </Source>
               </Sprite>
-              <Sprite Slot="8" Width="720" Height="540" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+              <Sprite Slot="8" Width="200" Height="200" ColorDepth="32" Resolution="Real" AlphaChannel="True">
                 <Source>
                   <FileName>C:\Users\brand\Downloads\Soldier_Frame0_and_Frame2.png</FileName>
                   <OffsetX>0</OffsetX>
@@ -4594,7 +4594,7 @@
                   <ImportAlphaChannel>True</ImportAlphaChannel>
                 </Source>
               </Sprite>
-              <Sprite Slot="9" Width="720" Height="540" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+              <Sprite Slot="9" Width="200" Height="200" ColorDepth="32" Resolution="Real" AlphaChannel="True">
                 <Source>
                   <FileName>C:\Users\brand\Downloads\Soldier_Frame1.png</FileName>
                   <OffsetX>0</OffsetX>
@@ -4609,7 +4609,7 @@
                   <ImportAlphaChannel>True</ImportAlphaChannel>
                 </Source>
               </Sprite>
-              <Sprite Slot="10" Width="720" Height="540" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+              <Sprite Slot="10" Width="200" Height="200" ColorDepth="32" Resolution="Real" AlphaChannel="True">
                 <Source>
                   <FileName>C:\Users\brand\Downloads\Soldier_Frame3.png</FileName>
                   <OffsetX>0</OffsetX>
