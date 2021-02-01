@@ -27,9 +27,14 @@
         </Items>
       </Edges>
       <Characters>
-        <Visible>False</Visible>
+        <Visible>True</Visible>
         <Locked>False</Locked>
-        <Items />
+        <Items>
+          <Item ID="0001">
+            <Visible>True</Visible>
+            <Locked>False</Locked>
+          </Item>
+        </Items>
       </Characters>
       <Objects>
         <Visible>False</Visible>
@@ -46,11 +51,11 @@
           </Item>
           <Item ID="0001">
             <Visible>True</Visible>
-            <Locked>False</Locked>
+            <Locked>True</Locked>
           </Item>
           <Item ID="0002">
             <Visible>True</Visible>
-            <Locked>False</Locked>
+            <Locked>True</Locked>
           </Item>
           <Item ID="0003">
             <Visible>True</Visible>

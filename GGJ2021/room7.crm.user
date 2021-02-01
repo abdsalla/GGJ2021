@@ -30,10 +30,6 @@
         <Visible>True</Visible>
         <Locked>False</Locked>
         <Items>
-          <Item ID="0000">
-            <Visible>True</Visible>
-            <Locked>False</Locked>
-          </Item>
           <Item ID="0003">
             <Visible>True</Visible>
             <Locked>False</Locked>
@@ -55,15 +51,15 @@
           </Item>
           <Item ID="0001">
             <Visible>True</Visible>
-            <Locked>False</Locked>
+            <Locked>True</Locked>
           </Item>
           <Item ID="0002">
             <Visible>True</Visible>
-            <Locked>False</Locked>
+            <Locked>True</Locked>
           </Item>
           <Item ID="0003">
             <Visible>True</Visible>
-            <Locked>False</Locked>
+            <Locked>True</Locked>
           </Item>
           <Item ID="0004">
             <Visible>True</Visible>
