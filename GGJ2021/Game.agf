@@ -2321,9 +2321,9 @@
             <IdleView>0</IdleView>
             <ThinkingView>0</ThinkingView>
             <BlinkingView>0</BlinkingView>
-            <StartingRoom>7</StartingRoom>
-            <StartX>631</StartX>
-            <StartY>624</StartY>
+            <StartingRoom>5</StartingRoom>
+            <StartX>1202</StartX>
+            <StartY>702</StartY>
             <UniformMovementSpeed>True</UniformMovementSpeed>
             <MovementSpeed>24</MovementSpeed>
             <MovementSpeedX>3</MovementSpeedX>
