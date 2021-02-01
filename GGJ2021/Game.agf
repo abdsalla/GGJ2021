@@ -2321,7 +2321,7 @@
             <IdleView>0</IdleView>
             <ThinkingView>0</ThinkingView>
             <BlinkingView>0</BlinkingView>
-            <StartingRoom>5</StartingRoom>
+            <StartingRoom>1</StartingRoom>
             <StartX>1202</StartX>
             <StartY>702</StartY>
             <UniformMovementSpeed>True</UniformMovementSpeed>
@@ -2361,9 +2361,9 @@
             <IdleView>0</IdleView>
             <ThinkingView>0</ThinkingView>
             <BlinkingView>0</BlinkingView>
-            <StartingRoom>-1</StartingRoom>
-            <StartX>1344</StartX>
-            <StartY>768</StartY>
+            <StartingRoom>4</StartingRoom>
+            <StartX>1208</StartX>
+            <StartY>688</StartY>
             <UniformMovementSpeed>True</UniformMovementSpeed>
             <MovementSpeed>3</MovementSpeed>
             <MovementSpeedX>0</MovementSpeedX>
@@ -2521,9 +2521,9 @@
             <IdleView>0</IdleView>
             <ThinkingView>0</ThinkingView>
             <BlinkingView>0</BlinkingView>
-            <StartingRoom>-1</StartingRoom>
-            <StartX>160</StartX>
-            <StartY>120</StartY>
+            <StartingRoom>5</StartingRoom>
+            <StartX>1592</StartX>
+            <StartY>324</StartY>
             <UniformMovementSpeed>True</UniformMovementSpeed>
             <MovementSpeed>3</MovementSpeed>
             <MovementSpeedX>0</MovementSpeedX>
@@ -4697,7 +4697,7 @@
                   <ImportAlphaChannel>True</ImportAlphaChannel>
                 </Source>
               </Sprite>
-              <Sprite Slot="6" Width="200" Height="200" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+              <Sprite Slot="6" Width="300" Height="300" ColorDepth="32" Resolution="Real" AlphaChannel="True">
                 <Source>
                   <FileName>C:\Users\brand\Downloads\TamagotchiFrame1.png</FileName>
                   <OffsetX>0</OffsetX>
@@ -4712,7 +4712,7 @@
                   <ImportAlphaChannel>True</ImportAlphaChannel>
                 </Source>
               </Sprite>
-              <Sprite Slot="7" Width="200" Height="200" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+              <Sprite Slot="7" Width="300" Height="300" ColorDepth="32" Resolution="Real" AlphaChannel="True">
                 <Source>
                   <FileName>C:\Users\brand\Downloads\TamagotchiFrame0.png</FileName>
                   <OffsetX>0</OffsetX>

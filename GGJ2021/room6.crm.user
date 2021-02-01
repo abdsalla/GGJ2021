@@ -46,11 +46,11 @@
           </Item>
           <Item ID="0001">
             <Visible>True</Visible>
-            <Locked>False</Locked>
+            <Locked>True</Locked>
           </Item>
           <Item ID="0002">
             <Visible>True</Visible>
-            <Locked>False</Locked>
+            <Locked>True</Locked>
           </Item>
           <Item ID="0003">
             <Visible>True</Visible>
